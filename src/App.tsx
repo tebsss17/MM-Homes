@@ -1,12 +1,26 @@
 import './App.css'
-import { AdIcon } from 'lucide-react'
+
+import Layout from './components/Layout';
+
+import Hero from './components/Hero';
+import About from './components/About';
+import Services from './components/Services';
+import Contact from './components/Contact';
+import Gallery from './components/Gallery';
+import Listings from './components/Listings';
 
 function App() {
   return (
     <>
-      <div>sup</div>
-      <AdIcon className='size-10' />
-      <p className='text-blue-400'>sdsd</p>
+      <Layout>
+        <Hero/>
+        <About/>
+        <Services/>
+        <Listings/>
+        <Gallery/>
+        <Contact/>
+
+      </Layout>
     </>
   )
 }
