@@ -4,7 +4,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="border-b border-[#efeeed] bg-[#fefdfc]">
+        <header className="sticky top-0 z-50 border-b border-[#efeeed] bg-[#fdfaf6]/60 shadow-sm">
 
             {/* Main Navbar */}
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
@@ -54,7 +54,7 @@ export default function Navbar() {
                 {/* Desktop CTA */}
                 <a
                     href="#contact"
-                    className="hidden rounded-full bg-[#1A1A1A] px-6 py-3 text-sm uppercase tracking-[0.12em] text-white transition hover:bg-[#C9A96E] md:block"
+                    className="hidden rounded-full bg-[#] text-[#1A2332] border-[#1A2332] border px-6 py-3 text-sm uppercase tracking-[0.12em] transition duration-300 hover:bg-[#1A2332] hover:text-[#FDFAF6] md:block"
                 >
                     Let's Talk
                 </a>

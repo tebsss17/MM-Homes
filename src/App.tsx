@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <Layout>
+        
         <Hero/>
         <About/>
         <Services/>
