@@ -36,7 +36,7 @@ export default function About() {
                         <div className="absolute bottom-4 left-4 right-4 sm:right-auto sm:bottom-6 sm:left-6 bg-[#1a1a1a]/90 backdrop-blur-md text-white p-4 sm:p-5 rounded-2xl max-w-xs shadow-xl border border-white/10">
                             <div className="flex items-baseline gap-1">
                             <span className="font-serif text-2xl sm:text-3xl font-semibold">
-                                $<CountUp end={28} />.<CountUp end={5} />
+                                $<CountUp end={28} duration={0.7} />.<CountUp end={5} duration={0.7} />
                             </span>
                             <span className="text-[#C9A96E] font-medium text-lg sm:text-xl">M+</span>
                             </div>
@@ -94,29 +94,31 @@ export default function About() {
                     </div>
 
                     {/* Stats Row with Animated Numbers */}
-                    <div className="flex items-center justify-between border-t border-b border-slate-200/80 py-6">
-                        <div>
-                            <p className="font-serif text-2xl sm:text-3xl text-slate-900 font-semibold">
-                            <CountUp end={30} suffix="+" />
+                    <div className="grid grid-cols-3 gap-1 sm:gap-4 md:gap-6 border-t border-b border-slate-200/80 py-6 text-center">
+                        <div className="flex flex-col items-center justify-center">
+                            <p className="font-serif text-xl min-[380px]:text-2xl sm:text-3xl text-slate-900 font-semibold tracking-tight">
+                                <CountUp end={30} duration={0.7} suffix="+" />
                             </p>
-                            <p className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider mt-1">
-                            Years Experience
-                            </p>
-                        </div>
-                        <div>
-                            <p className="font-serif text-2xl sm:text-3xl text-slate-900 font-semibold">
-                            <CountUp end={90} suffix="+" />
-                            </p>
-                            <p className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider mt-1">
-                            Clients This Year
+                            <p className="text-[9px] min-[380px]:text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider mt-1 leading-tight max-w-[90px] sm:max-w-none">
+                                Years Experience
                             </p>
                         </div>
-                        <div>
-                            <p className="font-serif text-2xl sm:text-3xl text-slate-900 font-semibold">
-                            <CountUp end={100} suffix="%" />
+
+                        <div className="flex flex-col items-center justify-center">
+                            <p className="font-serif text-xl min-[380px]:text-2xl sm:text-3xl text-slate-900 font-semibold tracking-tight">
+                                <CountUp end={90} duration={0.7} suffix="+" />
                             </p>
-                            <p className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider mt-1">
-                            Referral Driven
+                            <p className="text-[9px] min-[380px]:text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider mt-1 leading-tight max-w-[90px] sm:max-w-none">
+                                Clients This Year
+                            </p>
+                        </div>
+
+                        <div className="flex flex-col items-center justify-center">
+                            <p className="font-serif text-xl min-[380px]:text-2xl sm:text-3xl text-slate-900 font-semibold tracking-tight">
+                                <CountUp end={100} duration={0.7} suffix="%" />
+                            </p>
+                            <p className="text-[9px] min-[380px]:text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider mt-1 leading-tight max-w-[90px] sm:max-w-none">
+                                Client Satisfaction
                             </p>
                         </div>
                     </div>
