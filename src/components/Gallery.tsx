@@ -54,7 +54,7 @@ export default function Gallery() {
             className="bg-[#F9F6F1] py-16 md:py-24 lg:py-28 text-[#1A2332] border-[#efeeed]/60 border-t-2"
         >
         <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, ease: "easeOut" }}
@@ -93,7 +93,6 @@ export default function Gallery() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
 
-                    {/* Dark Gradient Overlay sa Ibaba */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300" />
 
                     {/* Bottom Title Tag */}

@@ -97,7 +97,7 @@ export default function Listings() {
 
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         {/* Header Section */}
-                        <div className="flex flex-col md:flex-row justify-between items-end gap-8 mb-12">
+                        <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-12">
                             <div>
                                 <span className="text-xs font-semibold uppercase tracking-[.25em] text-[#C9A96E]">
                                 search 
@@ -107,7 +107,7 @@ export default function Listings() {
                                 </h2>
                             </div>
 
-                            <div className="flex ">
+                            <div>
                                 <p className="text-[#5A6472] text-sm max-w-md leading-relaxed pt-2">
                                     Pahrump, NV and surrounding valleys. Filter by location, type, and budget — we update daily.
                                 </p>

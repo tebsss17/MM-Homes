@@ -10,7 +10,7 @@ interface LandingLayout {
 export default function Layout({children}: LandingLayout) {
     return (
         <>
-            <div className="min-h-screen bg-[#F8F5F0] text-[#222222]">
+            <div className="min-h-screen bg-[#F8F5F0] text-[#222222] font-sans">
                 <Navbar/>
 
                 <main>
