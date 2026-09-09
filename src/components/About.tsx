@@ -6,7 +6,10 @@ import CountUp from './CountUp'; // Siguraduhing tama ang path ng CountUp compon
 
 export default function About() {
     return (
-        <section className="bg-[#fdfaf6] py-16 md:py-24 lg:py-28 text-slate-800 overflow-hidden">
+        <section 
+            id='about'
+            className="bg-[#fdfaf6] py-16 md:py-24 lg:py-28 text-slate-800 overflow-hidden"
+        >
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
