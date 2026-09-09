@@ -54,7 +54,7 @@ export default function Navbar() {
                 {/* Desktop CTA */}
                 <a
                     href="#contact"
-                    className="hidden font-bold rounded-full  bg-[#1A2332] border px-7 py-3 text-sm uppercase tracking-[0.12em] transition duration-300 hover:bg-[#5A6472] text-[#FDFAF6] md:block"
+                    className="hidden font-medium rounded-full  bg-[#1A2332] border px-7 py-3 text-sm uppercase tracking-[0.12em] transition duration-300 hover:bg-[#5A6472] text-[#FDFAF6] md:block"
                 >
                     Let's Talk
                 </a>

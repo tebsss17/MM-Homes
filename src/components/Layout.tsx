@@ -10,7 +10,7 @@ interface LandingLayout {
 export default function Layout({children}: LandingLayout) {
     return (
         <>
-            <title>Marci Metzger | The Ridge Realty Group - Pahrump NV Real Estate</title>
+            <title>Marci Metzger | The Ridge Realty Group</title>
             <div className="min-h-screen bg-[#F8F5F0] text-[#222222] font-sans">
                 <Navbar/>
 
