@@ -4,7 +4,7 @@ A modern, high-performance luxury real estate landing page designed for **Marci 
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 * **Luxury UI/UX Aesthetic:** Customized typography (*Playfair Display* for serif headings, *Plus Jakarta Sans* for clean body text) paired with a high-end color palette.
 * **Fluid Animations:** Smooth entrance effects, scroll-triggered reveals, and interactive micro-interactions powered by **Framer Motion**.
@@ -14,12 +14,12 @@ A modern, high-performance luxury real estate landing page designed for **Marci 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Framework:** [React 18](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
 * **Build Tool:** [Vite](https://vitejs.dev/)
 * **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-* **Animations & Interactivity:** [Framer Motion](https://www.framer.com/motion/) & React CountUp
+* **Animations & Interactivity:** [Framer Motion](https://www.framer.com/motion/)
 * **Icons:** [Lucide React](https://lucide.dev/)
 * **Deployment:** [Netlify](https://www.netlify.com/)
 
