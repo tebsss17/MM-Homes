@@ -12,7 +12,7 @@ export default function Navbar() {
                 {/* Logo */}
                 <a href="#home" className="shrink-0">
                     <img
-                        src="/images/marci logo.webp"
+                        src="/images/marci-logo.webp"
                         alt="Marci Metzger - The Ridge Realty Group"
                         className="h-12 w-auto object-contain"
                     />
